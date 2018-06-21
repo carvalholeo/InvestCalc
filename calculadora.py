@@ -27,7 +27,7 @@ def js():
     renda = float(valorInvestido) *(float(juro)/100) * int(tempo)
     retorno = renda + (float(valorInvestido))
 
-    print("\nO retorno PREVISTO para seu investimento, conforme os dados inseridos no sistema é de R$ %f" %retorno)
+    print('\nO retorno PREVISTO para seu investimento, conforme os dados inseridos no sistema é de R$ {:.2f}'.format(retorno))
     padrao()
 
 def jc():
@@ -41,7 +41,7 @@ def jc():
         renda = float(valorInvestido) * (float(juro) / 100) * int(tempo)
         valorInvestido = renda + (float(valorInvestido))
 
-    print("\nO retorno PREVISTO para seu investimento, conforme os dados inseridos no sistema é de R$ %f" %valorInvestido)
+    print('\nO retorno PREVISTO para seu investimento, conforme os dados inseridos no sistema é de R$ {:.2f}'.format(valorInvestido))
     padrao()
 
 def sair():
