@@ -1,4 +1,5 @@
-#Calculadora de investimentos
+Calculadora de investimentos  
+=============================
 Este é um projeto de estudo em Python, que cria, em linha de comando, uma calculadora de investimentos.
   
 Nela, há a possibilidade de calcular os rendimentos com juros simples e compostos (os famosos "juros sobre juros") pelo período de tempo que o usuário colocar.  
