@@ -13,5 +13,5 @@ Lembro que é um projeto ACADÊMICO e que não tem a intenção de representar d
 Requisitos
 ----------  
 
-Python 3.6 ou superior
+Python 3.6 ou superior  
 Pacote OS (pip install os)
