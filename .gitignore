@@ -1,5 +1,5 @@
 #Arquivos de projeto do PyCharm
 #Estes arquivos não fazem parte da calculadora, sendo gerados de forma automática pelo IDE PyCharm
-venv/*
-.idea/*
+./venv/*
+./.idea/*
 .git/*
