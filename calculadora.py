@@ -23,20 +23,12 @@ def menu():
         print("\nOPÇÃO INVÁLIDA. TENTE NOVAMENTE.")
         padrao()
 
-
-# In[2]:
-
-
 def js():
     valorPresente = input("Digite o valor a ser investido: ")
     periodo = input("Digite o tempo do investimento: ")
     juros = input("Digite o juro da aplicação (em %): ")
     valorFuturo = float(valorPresente) * (1 + ((float(juros)/100) * int(periodo)))
     retorno(valorFuturo)
-
-
-# In[3]:
-
 
 def jc():
     valorPresente = input("Digite o valor a ser investido: ")
@@ -45,27 +37,15 @@ def jc():
     valorFuturo = float(valorPresente) * (1 + ((float(juros)/100)))**int(periodo)
     retorno(valorFuturo)
 
-
-# In[4]:
-
-
 def roi():
     investimento = input("Digite o valor investido: ")
     retReal = input("Digite o retorno obtido no investimento: ")
     roi = ((float(retReal) - float(investimento)) / float(investimento)) * 100
     retorno(roi,'roi')
 
-
-# In[5]:
-
-
 def sair():
     print("\nObrigado por utilizar a calculadora. Até logo!")
     exit()
-
-
-# In[6]:
-
 
 def padrao(counter = 0):
     if (counter == 0):
@@ -76,10 +56,6 @@ def padrao(counter = 0):
     os.system("CLS")
     menu()
 
-
-# In[9]:
-
-
 def retorno(retorno,tipo = 'padrao'):
     if (tipo == 'padrao'):
         print('\nO resultado do cálculo solicitado, conforme os dados inseridos no sistema, é de R$ {:.2f}'.format(retorno))
@@ -88,9 +64,5 @@ def retorno(retorno,tipo = 'padrao'):
     print("\n\n")
     padrao(1)
     return
-
-
-# In[10]:
-
 
 padrao()
